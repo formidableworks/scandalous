@@ -1,0 +1,20 @@
+{
+  "name": "scandalous-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.11.10",
+    "nodemon": "^2.0.5",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "execa": "^4.0.3",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "nodemon index.ts"
+  }
+}
